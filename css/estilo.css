@@ -1,0 +1,274 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*estilo para body */
+body{
+    background-image: url(../img/tu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+   
+    width: 100%;
+}
+
+.menu{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo img{
+    padding: 3px;
+    height: 80%;
+}
+nav{
+    float: left;
+}
+
+
+nav ul{
+    list-style: none;
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.menu ul li a,.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu ul li a:hover, .redes ul li a:hover{
+  color: rgb(140, 224, 56);
+  padding: 10px;
+  box-shadow: -9px 33px 288px 200px rgba(0,0,0,0.68);
+  -webkit-box-shadow: -9px 33px 288px 200px rgba(0,0,0,0.68);
+  -moz-box-shadow: -9px 33px 288px 200px rgba(0,0,0,0.68);
+
+}
+
+main{
+    padding-top: 20px;
+    width: 96%;
+    margin: 0 auto;
+    
+}
+
+
+
+.contenido{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+
+.ropa{
+    
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+
+}
+
+.ropa img{
+    border-radius: 40px;
+    width: 100%;
+}
+
+    
+.ropa iframe{
+
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+}
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .ropa blockquote{
+    width: 100% !important;
+  }
+
+
+
+.titulo{
+    color: rgb(146, 150, 155);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+.active{
+    color: rgb(rgb(66, 188, 90)) !important;
+}
+/* segunda part*/
+.mochila{
+    
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+
+}
+
+.mochila img{
+    border-radius: 40px;
+    width: 100%;
+}
+
+.mochila iframe{
+
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+  .mochilas{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+  }
+  .mochila blockquote{
+    width: 100% !important;
+  }
+ 
+  
+  
+ /* tercera parte*/
+
+ .titulo2{
+    color: rgb(146, 150, 155);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.femenina{
+    
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+
+}
+
+.femenina img{
+    border-radius: 40px;
+    width: 100%;
+}
+
+.femenina iframe{
+
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+  .femeninas{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+  }
+  .femenina blockquote{
+    width: 100% !important;
+  }
+
+  /*parte tiktok*/
+  .titulo2{
+    color: rgb(146, 150, 155);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.tiktok{
+    
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+
+}
+
+.tiktok img{
+    border-radius: 40px;
+    width: 100%;
+}
+
+.tiktok iframe{
+
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+  .volcanes{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+  }
+  .tiktok blockquote{
+    width: 100% !important;
+  }
